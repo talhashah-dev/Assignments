@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Rounded;
+    src: url(./assests/fonts/Monainn2.otf);
+}
+
+body {
+    background-color: rgb(219, 228, 222);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 220px;
+    background-color: rgb(233, 216, 166);
+}
+
+.head-buttons {
+    height: 100%;
+    padding: 18px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.head-buttons a {
+    text-decoration: none;
+    background-color: rgb(154, 34, 38);
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    width: 45%;
+    text-align: center;
+    border-radius: 4px;
+}
+
+div.hero {
+    background-color: rgb(202, 103, 1);
+    width: 100%;
+}
+
+div.hero img {
+    width: 100%;
+}
+
+.our-mission {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    padding: 10px;
+    background-color: rgb(219, 228, 222);
+}
+
+.our-mission h1 {
+    margin: 30px 0 30px 10px;
+    font-size: 48px;
+}
+
+.our-mission p {
+    margin: 10px 0 30px 0;
+    font-weight: bold;
+}
+
+.prints {
+    background-color: rgb(0, 95, 115);
+    padding: 10px;
+}
+
+.prints h1 {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 32px;
+}
+
+.prints figure {
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+.prints .fig1 {
+    border-color: rgb(187, 62, 3);
+}
+
+.prints .fig2 {
+    border-color: rgb(202, 103, 1);
+}
+
+.prints .fig3 {
+    border-color: rgb(147, 210, 141);
+    margin-bottom: 80px;
+}
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -100px;
+}
+
+figcaption a {
+    background-color: #fff8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.fav_prints {
+    padding: 10px;
+}
+
+.fav_prints figure {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    border-color: rgb(187, 62, 3);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.fav_prints h1 {
+    margin: 20px 0;
+    color: #000;
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+.fav_prints img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.collections {
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.collections h1 {
+    margin: 20px 0;
+    color: #000;
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+.collections figure {
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+.collections .fig1 {
+    border-color: rgb(187, 62, 3);
+}
+
+.collections .fig2 {
+    border-color: rgb(0, 95, 115);
+}
+
+.collections .fig3 {
+    border-color: rgb(238, 152, 0);
+}
+
+.collections .fig4 {
+    border-color: rgb(187, 62, 3);
+}
+
+.collections .fig5 {
+    border-color: rgb(147, 210, 141);
+}
+
+.collections .fig6 {
+    border-color: rgb(62, 147, 151);
+}
+
+.collections a {
+    background-color: #fff8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(233, 216, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer p {
+    font-weight: bolder;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+footer img {
+    margin-right: 16px;
+    float: left;
+}
+
+footer address {
+    font-weight: bolder;
+    font-size: 22px;
+    font-style: normal;
+    margin-top: 28px;
+}

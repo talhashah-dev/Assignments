@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Review Form</title>
+    <link rel="icon" type="image/x-icon" href="./images/list-icon.png" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="div-center margin">
+      <span class="span-box fieldset-bg-off">Step 1: Account</span>
+      <span class="span-box fieldset-bg-off">Step 2: Personal Details</span>
+      <span class="span-box fieldset-bg-on">Step 3: Your Review</span>
+    </div>
+
+    <form action="#" method="post">
+      <fieldset class="fieldset-style">
+        <legend>Your Review</legend>
+        <label for="aboutUs">How did you hear about us?</label>
+        <select name="aboutUs" id="aboutUs">
+          <option value="">select your option</option>
+          <option value="facebook">Facebook</option>
+          <option value="youtube">Youtube</option>
+          <option value="linkdin">Linkdin</option>
+          <option value="instagram">Instagram</option>
+          <option value="family/friends">Family/Friends</option>
+        </select>
+        <br />
+        <br />
+        <label for="pass">Would you visti again?:<br /></label>
+        <input type="radio" id="yes" name="pass" checked />
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="pass" />
+        <label for="no">No</label>
+        <input type="radio" id="maybe" name="pass" />
+        <label for="maybe">Maybe</label>
+        <br />
+        <br />
+        <label for="comments">Comments:<br /></label>
+        <textarea
+          name="comments"
+          id="comments"
+          cols="40"
+          rows="5"
+          placeholder="Enter your Comments here"
+        ></textarea>
+        <br />
+        <br />
+        <label for="">Documents:</label> <br />
+        <input type="file" />
+        <br /><br />
+        <input type="checkbox" id="emailUpdate" />
+        <label for="emailUpdate">Sign me up for email update</label>
+        <br /><br />
+
+        <span>
+          <a href="./page2.html">
+            <img
+              src="./images/arrow-left-square-fill.svg"
+              class="form-img margin-right"
+              title="BACK"
+            />
+          </a>
+          <input
+            style="border: none;"
+            type="image"
+            src="./images/send-check-fill.png"
+            class="form-img"
+            title="SUBMIT"
+          />
+        </span>
+      </fieldset>
+    </form>
+  </body>
+</html>

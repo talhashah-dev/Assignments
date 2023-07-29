@@ -1,0 +1,38 @@
+
+body{
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2,h3{
+    text-align: center;
+ }
+
+ .form-center {
+    width: 1000px;
+    margin: auto;
+  }
+
+  
+  .bottem-border{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.451);
+  }
+
+
+
+  .input-width-100{
+    width: 100%;
+  }
+  .input-width-50{
+    width: 50%;
+  }
+  .margin-right{
+    margin-right: 250px;
+  }
+

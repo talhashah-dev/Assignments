@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Review Form</title>
+    <link rel="icon" type="image/x-icon" href="./images/list-icon.png" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="div-center margin">
+      <span class="span-box fieldset-bg-on">Step 1: Account</span>
+      <span class="span-box">Step 2: Personal Details</span>
+      <span class="span-box">Step 3: Your Review</span>
+    </div>
+
+    <form action="#" method="get">
+      <fieldset class="fieldset-style">
+        <legend>Account</legend>
+        <label for="email">Email Address:<br /></label>
+        <input
+          type="email"
+          id="email"
+          class="input-style"
+          placeholder="Enter Email"
+        />
+        <br />
+        <br />
+        <label for="pass">Password:<br /></label>
+        <input
+          type="password"
+          id="pass"
+          class="input-style"
+          placeholder="Enter Password"
+          minlength="4"
+          maxlength="16"
+        />
+        <br />
+        <br />
+        <label for="confirm-pass">Confirm Password:<br /></label>
+        <input
+          type="password"
+          id="confirm-pass"
+          class="input-style"
+          placeholder="Confirm Password"
+          minlength="4"
+          maxlength="16"
+        />
+        <br />
+        <br />
+        <span>
+          <a href="./index.html">
+            <img
+              src="./images/arrow-left-square-fill.svg"
+              class="form-img margin-right"
+              title="BACK"
+            />
+          </a>
+          <a href="./page2.html">
+            <img
+              src="./images/arrow-right-square-fill.svg"
+              class="form-img"
+              title="NEXT"
+            />
+          </a>
+        </span>
+      </fieldset>
+    </form>
+  </body>
+</html>

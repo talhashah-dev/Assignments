@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+}
+
+.font-weight {
+  font-weight: bolder;
+}
+
+.div-center {
+  text-align: center;
+}
+
+.margin {
+  margin: 70px;
+}
+
+#arrow-img {
+  margin-top: 15px;
+  width: 120px;
+}
+
+.form-img {
+  width: 40px;
+}
+
+.margin-right {
+  margin-right: 410px;
+}
+
+.span-box{
+  border: none;
+  padding: 18px;
+  background-color: lightgray;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+input::-webkit-outer-spin-button, /* line 41 to 45 used to remove the increment arrow in cnic section */
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input{
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 2px 2px;
+}
+
+input:focus{
+  background-color: rgb(240, 240, 240);
+  color: black;
+  outline: none;
+}
+
+
+
+.input-style {
+  width: 485px;
+}
+
+.fieldset-style {
+  width: 500px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+legend{
+  background-color: rgba(219, 219, 219, 0.6);
+  border: 1px solid gray;
+  padding: 8px;
+  border-radius: 3px;
+  margin: 0px 5px;
+}
+
+.fieldset-bg-on {
+  background-color: lightblue;
+}
+
+.fieldset-bg-off {
+  background-color: lightgreen;
+}
+
+#cnic {
+  width: 10px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <img src="./images/logo_saylaniwelfare.22bf709605809177256c.png" alt="Saylani Welfare Logo">
+    <h2>Saylani Mass Training & Job Creation Program</h2>
+
+    <h3>Registration / Entry Test Form</h3>
+   
+   
+    <div class="form-center">
+    <form action="#">
+    <label for="course">Select Your Course*</label>
+    <br>
+    <select name="course" id="course" required class="input-width-50 bottem-border">
+        <option value="ai">AI</option>
+        <option value="cco">CCO</option>
+        <option value="wma">Web & Mobile App</option>
+    </select>
+    <label for="batch">Select Batch*</label>
+    <select name="batch" id="batch" required class="bottem-border">
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <br><br>
+    <input type="text" id="name" maxlength="18" placeholder="Your Name*" class="input-width bottem-border">
+    <p>max characters allowed: 18</p>
+    <br>
+    <br>
+    <label for="birthDate" class="margin-right ">Date of Birth*</label>
+    <label for="age">Your Age*</label>
+    
+    <br>
+    <input type="date" id="birthDate" name="Date of Birth" class="margin-right bottem-border">
+    <input type="number" name="age" id="age" class="bottem-border">
+    <br><br>
+    <label for="">Gender*</label>
+    <br>
+    <input type="radio" id="gender" name="male">
+    <label for="gender">Male</label>
+    <input type="radio" id="gender" name="female">
+    <label for="gender">Female</label>
+    <br><br>
+    <input type="text" name="cnic" id="cnic" placeholder="CNIC / B-FORM*" class="input-width-100 bottem-border">
+    <p>eg 4220123456789</p>
+    <br>
+    <input type="text" name="fatherName" id="fatherName" placeholder="Father's Name*" class="input-width-100 bottem-border">
+    <br><br><br>
+    <input type="text" name="fatherCnin" id="fatherCnin" placeholder="Father's / Guardian's CNIC*" class="input-width-100 bottem-border">
+    <p>eg 4220123456789</p>
+    <br><br>
+    <input type="text" id="address" name="address" placeholder="Full and Permenent Address*" class="input-width-100 bottem-border">
+    <br><br><br>
+    <input type="number" name="cellNum" id="cellNum" placeholder="Cell Number*" class="input-width-100 bottem-border">
+    <p>eg 0330123456</p>
+    <br><br>
+    <input type="email" name="email" id="email" placeholder="Email*" class="input-width-100 bottem-border">
+    <p>Provide a valid,accessible email that we will use to contact you.</p>
+    <br>
+    <h4>Last Qualification</h4>
+    <input type="radio" id="qualification" name="none">
+    <label for="qualification">None</label>
+    <input type="radio" id="qualification" name="matric">
+    <label for="qualification">Matric</label>
+    <input type="radio" id="qualification" name="inter">
+    <label for="qualification">Intermediate</label>
+    <input type="radio" id="qualification" name="bachelor">
+    <label for="qualification">Bachelor</label>
+    <input type="radio" id="qualification" name="master">
+    <label for="qualification">Master</label>
+    <input type="radio" id="qualification" name="phd">
+    <label for="qualification">Phd</label>
+    <br>
+    <p>Upload your recent image(face front,without glasses and with single-colored background)*</p>
+    <input type="file" >
+    <p>only png or jpg with size < 1mb is allowed </p>
+    <br><br>
+    <button>
+        <input type="submit">
+    </button>
+</form>
+    </div>
+
+
+</body>
+</html>
